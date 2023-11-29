@@ -274,7 +274,7 @@ async def start(client, message):
                     text=f"<b>Hello {message.from_user.mention}, Thanks To Use Me 🤝\n\n📌 ʏᴏᴜ ᴀʀᴇ ɴᴏᴛ ᴠᴇʀɪꜰɪᴇᴅ ᴛᴏᴅᴀʏ, ᴘʟᴇᴀꜱᴇ ᴠᴇʀɪꜰʏ ᴀɴᴅ ɢᴇᴛ ᴜɴʟɪᴍɪᴛᴇᴅ ꜰɪʟᴇ ᴀᴄᴄᴇꜱꜱ ꜰᴏʀ ᴛᴏᴅᴀʏ\n\n#Verification ✓</b>",
                     protect_content=True if PROTECT_CONTENT else True,
                     reply_markup=InlineKeyboardMarkup(btn)
-            )
+                )
                 return
             msg = await client.send_cached_media(
                 chat_id=message.from_user.id,
@@ -324,7 +324,7 @@ async def start(client, message):
             text=f"<b>Hello {message.from_user.mention}, Thanks To Use Me 🤝\n\n📌 ʏᴏᴜ ᴀʀᴇ ɴᴏᴛ ᴠᴇʀɪꜰɪᴇᴅ ᴛᴏᴅᴀʏ, ᴘʟᴇᴀꜱᴇ ᴠᴇʀɪꜰʏ ᴀɴᴅ ɢᴇᴛ ᴜɴʟɪᴍɪᴛᴇᴅ ꜰɪʟᴇ ᴀᴄᴄᴇꜱꜱ ꜰᴏʀ ᴛᴏᴅᴀʏ\n\n#Verification ✓</b>",
           protect_content=True if PROTECT_CONTENT else True,
             reply_markup=InlineKeyboardMarkup(btn)
-      )
+        )
         return
     await client.send_cached_media(
         chat_id=message.from_user.id,
