@@ -10,7 +10,7 @@ class script(object):
 Hᴇʀᴇ Is Tʜᴇ Hᴇʟᴘ Fᴏʀ Mʏ Cᴏᴍᴍᴀɴᴅs.</b>"""
 
     ABOUT_TXT = """<b>✯ Mʏ Nᴀᴍᴇ: {}
-✯ Cʀᴇᴀᴛᴏʀ: <a href='https://t.me/heartlesssn'>ᴄʀᴀᴢʏ ᴅᴇᴠᴇʟᴏᴘᴇʀ​</a>
+✯ Cʀᴇᴀᴛᴏʀ: <a href='https://t.me/IllegalDeveloperBot'>ɪʟʟᴇɢᴀʟ ᴅᴇᴠᴇʟᴏᴘᴇʀ​</a>
 ✯ Lɪʙʀᴀʀʏ: <a href='https://docs.pyrogram.org/'>ᴘʏʀᴏɢʀᴀᴍ</a>
 ✯ Lᴀɴɢᴜᴀɢᴇ: <a href='https://www.python.org/download/releases/3.0/'>ᴘʏᴛʜᴏɴ 3</a>
 ✯ DᴀᴛᴀBᴀsᴇ: <a href='https://www.mongodb.com/'>ᴍᴏɴɢᴏ ᴅʙ</a>
@@ -18,7 +18,7 @@ Hᴇʀᴇ Is Tʜᴇ Hᴇʟᴘ Fᴏʀ Mʏ Cᴏᴍᴍᴀɴᴅs.</b>"""
 </b>"""
     SOURCE_TXT = """<b>ɴᴏᴛᴇ:
 - ᴛʜɪꜱ ʙᴏᴛ ɪꜱ ᴀɴ ᴏᴘᴇɴ ꜱᴏᴜʀᴄᴇ ᴘʀᴏᴊᴇᴄᴛ.
-- ꜱᴏᴜʀᴄᴇ - <a href="https://t.me/Crazybotz">ʜᴇʀᴇ</a></b>
+- ꜱᴏᴜʀᴄᴇ - <a href="https://t.me/IllegalDeveloperBot">ʜᴇʀᴇ</a></b>
 """
 
     MANUELFILTER_TXT = """ʜᴇʟᴘ: <b>ꜰɪʟᴛᴇʀꜱ</b>
@@ -192,7 +192,7 @@ Nᴀᴍᴇ - {}"""
 
 🔁 𝒇𝒊𝒍𝒆 𝒔𝒊𝒛𝒆 - {file_size}
 
-<a href='t.me/crazybotz'>𝗖𝗿𝗮𝘇𝘆𝗯𝗼𝘁𝘇</a> ✅</b>"""
+<a href='https://t.me/Illegal_Developer'>𝙸𝚕𝚕𝚎𝚐𝚊𝚕 𝙳𝚎𝚟𝚎𝚕𝚘𝚙𝚎𝚛</a> ✅</b>"""
     
 
     IMDB_TEMPLATE_TXT = """
