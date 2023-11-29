@@ -24,7 +24,7 @@ async def start(client, message):
         buttons = [[
                     InlineKeyboardButton('Aᴅᴅ Mᴇ Tᴏ Yᴏᴜʀ Gʀᴏᴜᴘ', url=f'http://t.me/{temp.U_NAME}?startgroup=true')
                 ],[                                       
-                    InlineKeyboardButton('Sᴜᴘᴘᴏʀᴛ', url="https://t.me/Illegal_Developer"), 
+                    InlineKeyboardButton('Sᴜᴘᴘᴏʀᴛ', url="https://t.me/Unknown_Cinema"), 
                     InlineKeyboardButton('Rᴜʟᴇs', url="https://telegra.ph/How-to-get-movies--series-from-Bot-10-14-2")
                 ]]
         
@@ -241,7 +241,7 @@ async def start(client, message):
                 await verify_user(client, userid, token)
                 await message.reply_text(
                     text=f"<b>Hᴇʏ {message.from_user.mention}, Yᴏᴜ ᴀʀᴇ sᴜᴄᴄᴇssғᴜʟʟʏ ᴠᴇʀɪғɪᴇᴅ !\nNᴏᴡ ʏᴏᴜ ʜᴀᴠᴇ ᴜɴʟɪᴍɪᴛᴇᴅ ᴀᴄᴄᴇss ғᴏʀ ᴀʟʟ ᴍᴏᴠɪᴇs ᴛɪʟʟ ᴛʜᴇ ɴᴇxᴛ ᴠᴇʀɪғɪᴄᴀᴛɪᴏɴ ᴡʜɪᴄʜ ɪs ᴀғᴛᴇʀ 12 ʜᴏᴜʀs ғʀᴏᴍ ɴᴏᴡ.</b>",
-                    protect_content=True if PROTECT_CONTENT else True,
+                    protect_content=True if PROTECT_CONTENT else False,
                     reply_markup=InlineKeyboardMarkup(btn)
                 )
                 return
@@ -250,7 +250,7 @@ async def start(client, message):
             ]]
             await message.reply_text(
                 text=f"<b>Hᴇʏ {message.from_user.mention}, Yᴏᴜ ᴀʀᴇ sᴜᴄᴄᴇssғᴜʟʟʏ ᴠᴇʀɪғɪᴇᴅ !\nNᴏᴡ ʏᴏᴜ ʜᴀᴠᴇ ᴜɴʟɪᴍɪᴛᴇᴅ ᴀᴄᴄᴇss ғᴏʀ ᴀʟʟ ᴍᴏᴠɪᴇs ᴛɪʟʟ ᴛʜᴇ ɴᴇxᴛ ᴠᴇʀɪғɪᴄᴀᴛɪᴏɴ ᴡʜɪᴄʜ ɪs ᴀғᴛᴇʀ 12 ʜᴏᴜʀs ғʀᴏᴍ ɴᴏᴡ.</b>",
-                protect_content=True if PROTECT_CONTENT else True,
+                protect_content=True if PROTECT_CONTENT else False,
                 reply_markup=InlineKeyboardMarkup(btn)
             )
             await verify_user(client, userid, token)
@@ -270,7 +270,7 @@ async def start(client, message):
                     InlineKeyboardButton("Vᴇʀɪғʏ", url=await get_token(client, message.from_user.id, f"https://telegram.me/{temp.U_NAME}?start=", file_id)),
                     InlineKeyboardButton("Hᴏᴡ Tᴏ Vᴇʀɪғʏ", url=HOW_TO_VERIFY)
                 ]]
-               await message.reply_text(
+                await message.reply_text(
                     text="<b>Yᴏᴜ ᴀʀᴇ ɴᴏᴛ ᴠᴇʀɪғɪᴇᴅ!\nKɪɴᴅʟʏ ᴠᴇʀɪғʏ ᴛᴏ ᴄᴏɴᴛɪɴᴜᴇ Sᴏ ᴛʜᴀᴛ ʏᴏᴜ ᴄᴀɴ ɢᴇᴛ ᴀᴄᴄᴇss ᴛᴏ ᴜɴʟɪᴍɪᴛᴇᴅ ᴍᴏᴠɪᴇs ᴜɴᴛɪʟ 12 ʜᴏᴜʀs ғʀᴏᴍ ɴᴏᴡ !</b>",
                     protect_content=True if PROTECT_CONTENT else False,
                     reply_markup=InlineKeyboardMarkup(btn)
@@ -320,7 +320,7 @@ async def start(client, message):
             InlineKeyboardButton("Vᴇʀɪғʏ", url=await get_token(client, message.from_user.id, f"https://telegram.me/{temp.U_NAME}?start=", file_id)),
             InlineKeyboardButton("Hᴏᴡ Tᴏ Vᴇʀɪғʏ", url=HOW_TO_VERIFY)
         ]]
-      await message.reply_text(
+        await message.reply_text(
             text="<b>Yᴏᴜ ᴀʀᴇ ɴᴏᴛ ᴠᴇʀɪғɪᴇᴅ!\nKɪɴᴅʟʏ ᴠᴇʀɪғʏ ᴛᴏ ᴄᴏɴᴛɪɴᴜᴇ Sᴏ ᴛʜᴀᴛ ʏᴏᴜ ᴄᴀɴ ɢᴇᴛ ᴀᴄᴄᴇss ᴛᴏ ᴜɴʟɪᴍɪᴛᴇᴅ ᴍᴏᴠɪᴇs ᴜɴᴛɪʟ 12 ʜᴏᴜʀs ғʀᴏᴍ ɴᴏᴡ !</b>",
             protect_content=True if PROTECT_CONTENT else False,
             reply_markup=InlineKeyboardMarkup(btn)
